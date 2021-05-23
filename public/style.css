@@ -1,0 +1,119 @@
+body {
+  font-family: "montserrat";
+}
+
+.navbar {
+  background-color: #245894;
+  height: 70px;
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-size: 24px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: lightgray;
+  width: 800px;
+  height: 400px;
+}
+
+.tab-header {
+  height: 50px;
+  line-height: 50px;
+}
+
+.tab-header div {
+  float: left;
+  width: 50%;
+  text-align: center;
+  background-color: gray;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tab-header > div.active {
+  background-color: lightgray;
+  color: black;
+}
+
+.tab-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.tab-data {
+  margin: 10px 0px;
+}
+
+.tab-data input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.tab-btn input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background-color: #245894;
+  border-radius: 20px;
+  outline: none;
+}
+
+.tab-btn input:hover {
+  background-color: #152b44;
+}
+
+.tab-page .tab-right {
+  width: 350px;
+}
+
+.tab-page .tab-left {
+  width: 350px;
+}
+
+.tab-content > div.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-column-gap: 60px;
+          column-gap: 60px;
+  width: 800px;
+}
+
+.tab-content > div {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
